@@ -1,0 +1,21 @@
+.about {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.about h1 {
+  font-family: neolatina;
+  font-size: calc(0.75rem + 5vmin);
+  line-height: 75%;
+  font-weight: 400;
+  max-width: 50%;
+}
+
+.about-card {
+  font-size: calc(0.25rem + 1vmin);
+  width: 10vw;
+  height: auto;
+  background-color: #1f1f1f;
+  padding: 20px 20px;
+  color: white;
+}

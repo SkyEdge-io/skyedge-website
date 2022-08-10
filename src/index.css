@@ -2,5 +2,16 @@ html, body {
   padding: 0;
   margin: 0;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+@font-face {
+    font-family: neolatina;
+    src: url(./fonts/neo-latina-demo-FFP.ttf);
+}
+
+@font-face {
+    font-family: ava;
+    src: url(./fonts/AVA.ttf);
 }

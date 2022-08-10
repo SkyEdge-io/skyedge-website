@@ -1,0 +1,35 @@
+.home {
+  align-items: flex-start;
+  background: url(../../assets/bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 95% 0%;
+}
+
+.home h1 {
+  font-family: neolatina;
+  font-size: calc(0.75rem + 5vmin);
+  line-height: 75%;
+  font-weight: 400;
+  max-width: 50%;
+}
+
+.home p {
+  font-size: calc(0.30rem + 1vmin);
+  max-width: 50%;
+}
+
+@media screen and (max-width: 1120px) {
+  .home {
+    background-size: 800px;
+    background-position: 20% 40%;
+  }
+
+  .home h1 {
+    max-width: 100%;
+  }
+
+  .home p {
+    max-width: 100%;
+  }
+}

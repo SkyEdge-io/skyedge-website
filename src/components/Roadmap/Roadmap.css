@@ -1,0 +1,50 @@
+.roadmap {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.roadmap h1 {
+  font-family: neolatina;
+  font-size: calc(0.75rem + 5vmin);
+  line-height: 75%;
+  font-weight: 400;
+  max-width: 50%;
+}
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 60px;
+}
+
+.roadmap-steps-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.roadmap-step {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.roadmap-step-image {
+  height: 40vh;
+}
+
+.roadmap-step-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30%;
+}
+
+.roadmap-step-hero h2 {
+  font-family: neolatina;
+  font-size: calc(0.60rem + 1vmin);
+}
+
+.roadmap-step-hero p {
+  font-size: calc(0.25rem + 1vmin);
+}
