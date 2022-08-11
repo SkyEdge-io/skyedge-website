@@ -33,3 +33,23 @@
   background-color: #1F1F1F;
   font-size: calc(0.50rem + 1vmin);
 }
+
+@media screen and (max-width: 768px) {
+  .whitepaper h1 {
+    font-size: 36px;
+    max-width: 100%;
+  }
+
+  .steps-container {
+    flex-direction: row;
+  }
+
+  .step {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .whitepaper-content {
+    flex-direction: column-reverse;
+  }
+}

@@ -18,6 +18,7 @@
 }
 
 .roadmap-steps-container {
+  margin: 15px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -47,4 +48,14 @@
 
 .roadmap-step-hero p {
   font-size: calc(0.25rem + 1vmin);
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap-step-hero {
+    max-width: 80%;
+  }
+
+  .roadmap h1 {
+    font-size: 40px;
+  }
 }

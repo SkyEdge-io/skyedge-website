@@ -47,3 +47,21 @@
 .member-hero span {
   padding: 10px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .team-member {
+    width: 35%;
+  }
+
+  .cxo {
+    height: 6vh;
+  }
+
+  .team h1 {
+    font-size: 40px;
+  }
+
+  .member-hero span {
+    font-size: 16px;
+  }
+}
