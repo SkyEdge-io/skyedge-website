@@ -26,6 +26,31 @@
   color: white;
 }
 
+.socials {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  align-self: flex-end;
+  margin: 15px;
+}
+
+.social-acc {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.social-acc img {
+  width: 25px;
+  height: auto;
+}
+
 @media screen and (max-width: 768px) {
   .about-card {
     width: 75vw;
