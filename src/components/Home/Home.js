@@ -1,5 +1,6 @@
 import './Home.css';
 import Spline from '@splinetool/react-spline';
+import scrolldown from '../../assets/scroll-down.svg';
 
 const Home = () => {
   const spline = (
@@ -12,6 +13,7 @@ const Home = () => {
     <div className="container home">
       <h1>Making distributed computing native to mobile</h1>
       <p>Building the future of data and ML on edge devices</p>
+      <img src={scrolldown} className="scrolldown" />
    </div>
   )
 };

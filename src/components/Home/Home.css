@@ -19,6 +19,14 @@
   max-width: 50%;
 }
 
+.scrolldown {
+  position: absolute;
+  height: 50vh;
+  width: auto;
+  bottom: 10px;
+  right: 10px;
+}
+
 @media screen and (max-width: 1120px) {
   .home {
     background-size: 800px;
