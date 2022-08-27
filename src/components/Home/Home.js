@@ -4,7 +4,7 @@ import scrolldown from '../../assets/scroll-down.svg';
 
 const Home = () => {
   const spline = (
-    <div style={{width: '750px', height: '750px', transform: 'scale(0.5)'}}>
+    <div className="spline">
       <Spline scene="https://prod.spline.design/66GC2JNzbIEqjhb2/scene.splinecode" />
     </div>
   );

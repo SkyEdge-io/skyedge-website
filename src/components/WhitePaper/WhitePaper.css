@@ -16,8 +16,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 15px;
+  justify-content: flex-start;
+  gap: 50px;
   /*position: relative;*/
 }
 
@@ -46,10 +46,10 @@
 
 .whitepaper-hero {
   /*display: flex;*/
-  width: 70%;
+  width: 60%;
   background-color: #1F1F1F;
   text-align: right;
-  font-size: calc(0.25rem + 1vmin);
+  font-size: calc(0.35rem + 1vmin);
   box-sizing: border-box;
   padding: 20px;
   display: none;
@@ -75,14 +75,14 @@
 }
 
 .whitepaper-hero-content {
-  width: 20%;
+  width: 35%;
   align-self: flex-end;
   margin-left: auto;
 }
 
 .whitepaper-hero-img {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   align-self: flex-start;
   justify-self: flex-start;
 }

@@ -45,7 +45,7 @@ const WhitePaper = () => {
         if (index + 1 > 4) return 1;
         return index + 1;
       });
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -66,7 +66,7 @@ const WhitePaper = () => {
         <img src={whitepaper} alt="img" style={{width: "12vw"}} className="whitepaper-img"/>
         <div className="steps-container">
           {steps.map(step => (
-            <div key={step.id} className={step.isActive ? "step active-step" : "step"} >{step.text}</div>
+            <div key={step.id} className={step.isActive ? "step active-step" : "step"} onClick={() => setIndex(step.id)}>{step.text}</div>
           ))}
         </div>
         {steps.map(step => (
