@@ -120,35 +120,81 @@
 
 
 @media screen and (max-width: 768px) {
-  .about-card {
-    width: 75vw;
+
+  .about-cards-container {
+    flex-direction: column;
+    width: 100%;
   }
 
   .socials-container {
-    width: 85vw;
-    height: 30vh;
+    width: 100%;
+    height: 35vh;
     margin: 20px 0;
     flex-direction: row-reverse;
+    justify-content: space-between;
   }
 
-  .socials-container.about-card {
-    width: 80% !important;
-    height: 200px !important;
+  .socials-container .about-cards {
+    width: 70%;
+    height: 100%;
   }
 
   .socials {
     width: 25%;
-    height: 200px;
-    box-sizing: border-box;
+    min-height: 100%;
+    align-self: stretch;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-acc {
+    width: 100%;
+    height: 25%;
+    /*background-color: #181818;*/
+  }
+
+  .social-acc img {
+    width: 40px;
   }
 
   .about h1 {
     font-size: 40px;
   }
 
-  .about-cards-container {
+  .about-col2 {
+    width: 100%;
+  }
+
+  .about-col2-row1 {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .about-quote-container {
+    width: 65%;
+  }
+
+  .about-ico {
+    width: 20%;
+  }
+
+  .about-col2-row2 {
     flex-direction: column;
+  }
+
+  .about-row2-desc {
+    width: 100%;
+  }
+
+  .about-skyedge {
+    width: 75%;
+    height: auto;
+    align-self: center;
+  }
+
+  .about-col3 {
+    width: 100%;
+    margin: 20px 0;
   }
 }

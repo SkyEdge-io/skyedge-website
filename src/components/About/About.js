@@ -12,9 +12,9 @@ const About = () => {
         <div className="socials-container">
           <div className="about-cards" >SkyEdge runs on mobile devices enabling Digital assets and privacy-first AI at scale. We are making distributed computing and blockchain native to billions of mobile devices.</div>
           <div className="socials">
-            <span className="social-acc"><img src={linkedin} /></span>
-            <span className="social-acc"><img src={twitter} /></span>
-            <span className="social-acc"><img src={discord} /></span>
+            <div className="social-acc"><img src={linkedin} /></div>
+            <div className="social-acc"><img src={twitter} /></div>
+            <div className="social-acc"><img src={discord} /></div>
           </div>
         </div>
         <div className="about-col2">

@@ -14,7 +14,6 @@ const Home = () => {
       <h1>Making distributed computing native to mobile</h1>
       <p>Building the future of data and ML on edge devices</p>
       <img src={scrolldown} className="scrolldown" />
-      {spline}
    </div>
   )
 };
