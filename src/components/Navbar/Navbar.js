@@ -1,5 +1,5 @@
 import './Navbar.css';
-import skyedge from '../../assets/skyedge.png';
+import skyedge from '../../assets/skyedge-ico.png';
 import hamburger from '../../assets/hamburger.svg';
 import { useState } from 'react';
 
