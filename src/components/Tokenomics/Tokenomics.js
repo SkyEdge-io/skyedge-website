@@ -2,7 +2,7 @@ import './Tokenomics.css';
 
 const Tokenomics = () => {
   return (
-    <div className="container tokenomics">
+    <div className="container tokenomics" id="tokenomics">
       <h1>Tokenomics</h1>
       <div className="token-container">
         <div className="token-col1">

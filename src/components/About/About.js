@@ -6,7 +6,7 @@ import skyedge from '../../assets/skyedge.png';
 
 const About = () => {
   return (
-    <div className="container about">
+    <div className="container about" id="about">
       <h1>About</h1>
       <div className="about-cards-container">
         <div className="socials-container">

@@ -12,7 +12,7 @@ const Roadmap = () => {
   ];
 
   return (
-    <div className="container roadmap">
+    <div className="container roadmap" id="roadmap">
       <h1>Roadmap</h1>
       <div className="roadmap-container">
         <div className="roadmap-steps-container">

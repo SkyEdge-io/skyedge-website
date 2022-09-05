@@ -14,7 +14,7 @@ function App() {
       <Home />
       <About />
       <WhitePaper />
-      <Team />
+      {/*<Team />*/}
       <Roadmap />
       <Tokenomics />
     </div>

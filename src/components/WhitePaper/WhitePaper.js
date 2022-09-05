@@ -68,7 +68,7 @@ const WhitePaper = () => {
   }, [index]);
 
   return (
-    <div className="container whitepaper">
+    <div className="container whitepaper" id="whitepaper">
       <h1>How we transform</h1>
       <div className="whitepaper-content">
         <img src={whitepaper} alt="img" style={{width: "12vw"}} className="whitepaper-img"/>
