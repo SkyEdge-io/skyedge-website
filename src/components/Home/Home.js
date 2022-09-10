@@ -13,6 +13,10 @@ const Home = () => {
     <div className="container home">
       <h1>Making distributed computing native to mobile</h1>
       <p>Building the future of data and ML on edge devices</p>
+      <form action="">
+        <input type="text" className="email-input" placeholder="email ID"/>
+        <input type="button" value="Join the waitlist" className="email-submit"/>
+      </form>
       <img src={scrolldown} className="scrolldown" />
    </div>
   )

@@ -7,7 +7,6 @@
 }
 
 .home h1 {
-  margin-top: 100px;
   font-family: neolatina;
   font-size: calc(0.75rem + 5vmin);
   line-height: 75%;
@@ -34,6 +33,40 @@
   transform: scale(0.5);
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input {
+  background-color: #1f1f1f;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.email-input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.email-input:focus {
+  color: white;
+}
+
+.email-submit {
+  border-color: #00FF85;
+  background-color: #00FF85;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1120px) {
   .home {
     background-size: 800px;
@@ -57,5 +90,18 @@
 
   .home h1 {
     font-size: 40px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .email-input {
+    width: 60%;
+  }
+
+  .email-submit {
+    width: 40%;
+    font-size: calc(0.1rem + 2vmin);
   }
 }

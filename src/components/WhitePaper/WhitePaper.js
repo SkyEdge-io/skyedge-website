@@ -67,8 +67,7 @@ const WhitePaper = () => {
     setSteps(stepsCopy);
   }, [index]);
 
-  return (
-    <div className="container whitepaper" id="whitepaper">
+  const prev = {/*<div className="container whitepaper" id="whitepaper">
       <h1>How we transform</h1>
       <div className="whitepaper-content">
         <img src={whitepaper} alt="img" style={{width: "12vw"}} className="whitepaper-img"/>
@@ -86,6 +85,21 @@ const WhitePaper = () => {
             </div>
           </div>
         ))}
+      </div>
+    </div>*/};
+
+  return (
+    <div className="container whitepaper" id="whitepaper">
+      <h1>How we transform</h1>
+      <div className="whitepaper-content">
+        <img src={whitepaper} alt="img" style={{width: "12vw"}} className="whitepaper-img"/>
+        <div className="whitepaper-hero active-whitepaper-hero">
+          <img src={step4} className="whitepaper-hero-img"/>
+          <div className="whitepaper-hero-content">
+            <h2>{stepsInitial[3].heading}</h2>
+            <p>{stepsInitial[3].content}</p>
+          </div>
+        </div>
       </div>
     </div>
   )
